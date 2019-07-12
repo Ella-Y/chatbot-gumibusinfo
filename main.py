@@ -14,6 +14,10 @@ from slack.web.classes.interactions import MessageInteractiveEvent
 from slackeventsapi import SlackEventAdapter
 
 
+
+SLACK_TOKEN = ''
+SLACK_SIGNING_SECRET = ''
+
 app=Flask(__name__)
 
 # /listening 으로 슬랙 이벤트를 받습니다.
@@ -24,7 +28,7 @@ STATION={'TO_INDONG':'*구미역* :arrow_right: 인동정류장 방면',
          'TO_SAMSUNG':'*구미역* :arrow_right: 삼성전자후문(메가박스 앞)',
          'FROM_INDONG_SAGEORI':'*인동정류장(인동사거리 방면)* :arrow_right: 구미역',
         'FROM_MEGABOX':'*인동사거리(메가박스 맞은편)* :arrow_right: 구미역',
-        'EXPECT':'*구미역*에서 출발예정인 버스'
+        'EXPECT':'*구미역* 에서 출발예정인 버스'
 }
 TO_INDONG ='TO_INDONG' #'*구미역* :arrow_right: 인동정류장 방면'
 TO_SAMSUNG ='TO_SAMSUNG' #구미역 -> 삼성전자후문
@@ -79,7 +83,6 @@ def bus_expect(time_table):
     for buses in BUS_LIST:
         bus_list+=buses[0]
 
-    print(bus_list)
     for key,value in time_table.items():
         if key in bus_list:
             for time_value in value:
@@ -89,7 +92,13 @@ def bus_expect(time_table):
                     break
                 elif ((int(temp[0]) * 60 + int(temp[1]) - (now_hour * 60 + now_minute)) >= 45):
                     break
-    return expect_string
+    head_section=SectionBlock(
+        text=':bus:'+STATION[EXPECT]
+    )
+    body_section=SectionBlock(
+        text=expect_string
+    )
+    return [head_section,body_section,DividerBlock()]
 
 # 버스 있는지 찾기:
 # find_bus(bus_name:string)
@@ -158,7 +167,7 @@ def busInfo(direction):
 
 def calling_button():
     head_section=SectionBlock(
-        text='안녕하세요? 좋은하루예요.:grinning:\n:bus:어디에서 출발하나요? 실시간으로 알려드릴께요!\n더 많은 정보는 <https://bis.gumi.go.kr|구미시 버스정보시스템>을 참조해주세요.'
+        text='안녕하세요? 좋은하루예요.:grinning:\n:bus:어디에서 출발하나요? 실시간으로 알려드릴께요!\n더 많은 정보는 <https://bis.gumi.go.kr|구미시 버스정보시스템>을 참조해주세요.\n"@구미버스Info help"로 다른 기능도 알아보세요!'
     )
     button_actions=ActionsBlock(
         elements=[
@@ -204,7 +213,7 @@ def BusSection(KEY): #Todo 버스섹션 만들고 divide 넣기
 
     bus_string = ''
     for bus_info in busInfo(KEY):  # [['187', '8정거장 전  ', '8분후도착예정', 33]]
-        bus_string += '{0}\t{1}\t{2}\t총 {3}분 소요예정\n'.format(bus_info[0], bus_info[1],
+        bus_string += '{0}\t{1}\t{2}\t도착지까지 {3}분 소요예정\n'.format(bus_info[0], bus_info[1],
                                                             bus_info[2], bus_info[3])
 
     if bus_string == '':
@@ -218,10 +227,48 @@ def BusSection(KEY): #Todo 버스섹션 만들고 divide 넣기
 
     return [head_section,bus_section, divider_section]
 
+def helpMessage():
+    head_section = SectionBlock(
+        text='출발지 도착지 순으로 입력해주세요.\n@구미버스Info 구미역 삼성전자후문\n@구미버스Info 인동정류장 구미역\n@구미버스 Info 구미역  은 구미역에서 출발예정인 버스를 보여줍니다.'
+    )
+    divider_section = DividerBlock()
+    return [head_section,divider_section]
 
-def processing(*text): #text:string
-    message_blocks=calling_button()
-    return message_blocks
+def processing(channel,*text): #text:string
+    if text==():
+        message_blocks=calling_button()
+        return message_blocks
+
+    #text=([구미역, 인동정류장])
+    received=text[0]
+    if len(received)==1:
+        if received[0]=='구미역':
+            sendMessage(channel,bus_expect(timeTable))
+        elif received[0]=='help':
+            sendMessage(channel,helpMessage())
+        else:
+            sendMessage(channel, '잘못 입력하셨군요!:sob:')
+            sendMessage(channel, helpMessage())
+    elif len(received)==2:
+        KEY=''
+        if received[0]=='구미역' and received[1]=='인동정류장':
+            KEY=TO_INDONG
+        elif received[0]=='구미역' and received[1]=='삼성전자후문':
+            KEY=TO_SAMSUNG
+        elif received[0]=='인동정류장' and received[1]=='구미역':
+            KEY=FROM_INDONG_SAGEORI
+        elif received[0]=='인동정류장' and received[1]=='구미역':
+            KEY = FROM_MEGABOX
+
+        if KEY=='':
+            sendMessage(channel, '잘못 입력하셨군요!')
+            sendMessage(channel,helpMessage())
+        else:
+            sendMessage(channel,BusSection(KEY))
+    else:
+        sendMessage(channel,'잘못 입력하셨군요!')
+        sendMessage(channel, helpMessage())
+
 
     #사용예시
     # weather_string=' '.join(getWeather())
@@ -257,9 +304,13 @@ def app_mentioned(event_data):
     channel = event_data["event"]["channel"]
     text = event_data["event"]["text"]
 
-    #I want to send message
-    message=processing()
-    sendMessage(channel,message)
+    mylist=text.strip().split()
+    if len(mylist)==1:
+        #I want to send message
+        message=processing(channel)
+        sendMessage(channel,message)
+    else:
+        message=processing(channel,mylist[1:])
 
 
 # / 로 접속하면 서버가 준비되었다고 알려줍니다.
