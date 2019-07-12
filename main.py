@@ -1,6 +1,6 @@
 import urllib.request
 import datetime
-import requests
+
 import json
 import urllib.parse
 
@@ -8,14 +8,11 @@ from bs4 import BeautifulSoup
 
 from flask import Flask, request
 from slack import WebClient
-from slack import WebClient
-from slack.web.classes import extract_json
 from slack.web.classes.blocks import *
 from slack.web.classes.elements import *
 from slack.web.classes.interactions import MessageInteractiveEvent
 from slackeventsapi import SlackEventAdapter
-SLACK_TOKEN = ''
-SLACK_SIGNING_SECRET = ''
+
 
 app=Flask(__name__)
 
@@ -23,7 +20,12 @@ app=Flask(__name__)
 slack_events_adaptor = SlackEventAdapter(SLACK_SIGNING_SECRET, "/listening", app)
 slack_web_client = WebClient(token=SLACK_TOKEN)
 
-#STATION={1:'TO_INDONG',2:'TO_SAMSUNG',3:'FROM_INDONG_SAGEORI',4:'FROM_MEGABOX'}
+STATION={'TO_INDONG':'*구미역* :arrow_right: 인동정류장 방면',
+         'TO_SAMSUNG':'*구미역* :arrow_right: 삼성전자후문(메가박스 앞)',
+         'FROM_INDONG_SAGEORI':'*인동정류장(인동사거리 방면)* :arrow_right: 구미역',
+        'FROM_MEGABOX':'*인동사거리(메가박스 맞은편)* :arrow_right: 구미역',
+        'EXPECT':'*구미역*에서 출발예정인 버스'
+}
 TO_INDONG ='TO_INDONG' #'*구미역* :arrow_right: 인동정류장 방면'
 TO_SAMSUNG ='TO_SAMSUNG' #구미역 -> 삼성전자후문
 FROM_INDONG_SAGEORI ='FROM_INDONG_SAGEORI' # 인동정류장->구미역
@@ -156,7 +158,7 @@ def busInfo(direction):
 
 def calling_button():
     head_section=SectionBlock(
-        text='안녕하세요? 좋은하루예요.:grinning:\n:bus:어디에서 출발하나요?\n실시간으로 알려드릴께요!'
+        text='안녕하세요? 좋은하루예요.:grinning:\n:bus:어디에서 출발하나요? 실시간으로 알려드릴께요!\n더 많은 정보는 <https://bis.gumi.go.kr|구미시 버스정보시스템>을 참조해주세요.'
     )
     button_actions=ActionsBlock(
         elements=[
@@ -191,13 +193,30 @@ def calling_button():
         ]
 
     )
-    return [head_section, button_actions]
+    divider_section=DividerBlock()
+    return [head_section, button_actions,divider_section]
 
-def BusSection(): #Todo 버스섹션 만들고 divide 넣기
+def BusSection(KEY): #Todo 버스섹션 만들고 divide 넣기
+
     head_section = SectionBlock(
-        text=':bus:*구미역* :arrow_right: 인동정류장 방면'
+        text=':bus:'+STATION[KEY]
     )
-    return [head_section]
+
+    bus_string = ''
+    for bus_info in busInfo(KEY):  # [['187', '8정거장 전  ', '8분후도착예정', 33]]
+        bus_string += '{0}\t{1}\t{2}\t총 {3}분 소요예정\n'.format(bus_info[0], bus_info[1],
+                                                            bus_info[2], bus_info[3])
+
+    if bus_string == '':
+        bus_string = '현재 해당 지역으로 가는 버스가 없습니다 :sob:\n구미역에서 출발예정인 버스를 확인해보세요!'
+
+    bus_section = SectionBlock(
+        text=bus_string
+    )
+
+    divider_section = DividerBlock()
+
+    return [head_section,bus_section, divider_section]
 
 
 def processing(*text): #text:string
@@ -263,15 +282,8 @@ def on_button_click():
     if KEY == EXPECT:
         sendMessage(channel,bus_expect(timeTable))
     else:
-        bus_string = ''
-        for bus_info in busInfo(KEY): #[['187', '8정거장 전  ', '8분후도착예정', 33]]
-            bus_string += '{0}\t{1}\t{2}\t총 {3}분 소요예정\n'.format(bus_info[0], bus_info[1],
-                                                               bus_info[2], bus_info[3])
+        sendMessage(channel,BusSection(KEY))
 
-        if bus_string=='':
-            bus_string='현재 해당 지역으로 가는 버스가 없습니다 :sob:'
-
-        sendMessage(channel,bus_string)
 
     return "OK", 200
 
