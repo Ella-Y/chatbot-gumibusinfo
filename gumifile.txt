@@ -1,0 +1,95 @@
+10	구미역_인동_왜관	구미역	왜관남부	http://bis.gumi.go.kr/city_bus/time_table.do?route_id=1010&brtId=10&remark=구미역_인동_왜관
+101-1	구미역_터미널_공단1동행정복지센터	구미역	공단1동행정복지센터앞	http://bis.gumi.go.kr/city_bus/time_table.do?route_id=101-110&brtId=101-1&remark=구미역_터미널_공단1동행정복지센터
+11	구미역_현대아파트_왜관남부정류장	구미역	왜관남부	http://bis.gumi.go.kr/city_bus/time_table.do?route_id=1111&brtId=11&remark=구미역_현대아파트_왜관남부정류장
+11	구미역_약목_왜관남부정류장	구미역	왜관남부	http://bis.gumi.go.kr/city_bus/time_table.do?route_id=1110&brtId=11&remark=구미역_약목_왜관남부정류장
+11	구미역_(공단미경유)_약목_삼주A_왜관남부정류장	구미역	왜관남부	http://bis.gumi.go.kr/city_bus/time_table.do?route_id=1115&brtId=11&remark=구미역_(공단미경유)_약목_삼주A_왜관남부정류장
+11	구미역_왜관남부정류장_(공단미경유)	구미역	왜관남부	http://bis.gumi.go.kr/city_bus/time_table.do?route_id=1113&brtId=11&remark=구미역_왜관남부정류장_(공단미경유)
+11	구미역_약목_삼주A_왜관남부정류장	구미역	왜관남부	http://bis.gumi.go.kr/city_bus/time_table.do?route_id=1114&brtId=11&remark=구미역_약목_삼주A_왜관남부정류장
+110	구미역_인동_왜관	구미역	왜관남부	http://bis.gumi.go.kr/city_bus/time_table.do?route_id=11010&brtId=110&remark=구미역_인동_왜관
+111	구미역_약목_왜관남부정류장	구미역	왜관남부	http://bis.gumi.go.kr/city_bus/time_table.do?route_id=11110&brtId=111&remark=구미역_약목_왜관남부정류장
+12	구미역_금오시장_순천향병원_동국방직_남구미대교_장곡중_효성해링턴	구미역	효성해링턴건너	http://bis.gumi.go.kr/city_bus/time_table.do?route_id=1210&brtId=12&remark=구미역_금오시장_순천향병원_동국방직_남구미대교_장곡중_효성해링턴
+120	구미역_금오시장_순천향병원_동국방직_남구미대교_장곡중_효성해링턴	구미역	효성해링턴건너	http://bis.gumi.go.kr/city_bus/time_table.do?route_id=12010&brtId=120&remark=구미역_금오시장_순천향병원_동국방직_남구미대교_장곡중_효성해링턴
+140	(구 14번)구미역_순천향병원_구미역	구미역	구미역(중앙시장)	http://bis.gumi.go.kr/city_bus/time_table.do?route_id=14030&brtId=140&remark=(구 14번)구미역_순천향병원_구미역
+140-2	(구 14번)구미역_순천향병원_구미역_봉곡청마루	구미역	봉곡청마루종점	http://bis.gumi.go.kr/city_bus/time_table.do?route_id=140-230&brtId=140-2&remark=(구 14번)구미역_순천향병원_구미역_봉곡청마루
+140-3	(구 14번)구미역_순천향병원_구미역_원호동	구미역	원호대우아파트앞	http://bis.gumi.go.kr/city_bus/time_table.do?route_id=140-330&brtId=140-3&remark=(구 14번)구미역_순천향병원_구미역_원호동
+140-5	(구 14번)구미역_순천향병원_구미역_도량1동_문성청솔아파트	구미역	청솔아파트건너	http://bis.gumi.go.kr/city_bus/time_table.do?route_id=140-530&brtId=140-5&remark=(구 14번)구미역_순천향병원_구미역_도량1동_문성청솔아파트
+140-6	(구 14번)구미역_순천향병원_구미역_원호동_문성청솔아파트_청마루	구미역	봉곡청마루종점	http://bis.gumi.go.kr/city_bus/time_table.do?route_id=140-630&brtId=140-6&remark=(구 14번)구미역_순천향병원_구미역_원호동_문성청솔아파트_청마루
+160	(구 115번)구미역_사곡동_인평중학교_북삼농협	구미역	북삼농협건너	http://bis.gumi.go.kr/city_bus/time_table.do?route_id=16011&brtId=160&remark=(구 115번)구미역_사곡동_인평중학교_북삼농협
+160	(구 115번)구미역_인평중학교	구미역	인평중학교종점	http://bis.gumi.go.kr/city_bus/time_table.do?route_id=16010&brtId=160&remark=(구 115번)구미역_인평중학교
+161	(구 6-1번)구미역_사곡_오태1동	구미역	오태1동	http://bis.gumi.go.kr/city_bus/time_table.do?route_id=16110&brtId=161&remark=(구 6-1번)구미역_사곡_오태1동
+162	(구 62번)구미역_지경리	구미역	지경리종점	http://bis.gumi.go.kr/city_bus/time_table.do?route_id=16210&brtId=162&remark=(구 62번)구미역_지경리
+162-1	(구 62번)구미역_지경리_(숭오리미경유)	구미역	지경리종점	http://bis.gumi.go.kr/city_bus/time_table.do?route_id=162-111&brtId=162-1&remark=(구 62번)구미역_지경리_(숭오리미경유)
+170	(구 120번)구미역_선산	구미역(선산노선정류장)	선산터미널종점	http://bis.gumi.go.kr/city_bus/time_table.do?route_id=17022&brtId=170&remark=(구 120번)구미역_선산
+171	(구 20번)구미역_선산	구미역(선산노선정류장)	선산터미널종점	http://bis.gumi.go.kr/city_bus/time_table.do?route_id=17120&brtId=171&remark=(구 20번)구미역_선산
+171-2	(구 20-2번)구미역_형남중_선산	구미역(선산노선정류장)	선산터미널종점	http://bis.gumi.go.kr/city_bus/time_table.do?route_id=171-220&brtId=171-2&remark=(구 20-2번)구미역_형남중_선산
+172	구미역_원호동_고아_선산(신설)	구미역(중앙시장)	선산터미널종점	http://bis.gumi.go.kr/city_bus/time_table.do?route_id=17220&brtId=172&remark=구미역_원호동_고아_선산(신설)
+173	구미역_5주공_고아_선산(신설)	구미역(중앙시장)	선산터미널종점	http://bis.gumi.go.kr/city_bus/time_table.do?route_id=17320&brtId=173&remark=구미역_5주공_고아_선산(신설)
+174	(구 38번)구미역_선산	구미역(김천행)	선산터미널종점	http://bis.gumi.go.kr/city_bus/time_table.do?route_id=17420&brtId=174&remark=(구 38번)구미역_선산
+174-1	(구 38번)구미역_서당_횡산_선산	구미역(김천행)	선산터미널종점	http://bis.gumi.go.kr/city_bus/time_table.do?route_id=174-120&brtId=174-1&remark=(구 38번)구미역_서당_횡산_선산
+175	(구 83번)구미역_해평	구미역(선산노선정류장)	해평버스정류장	http://bis.gumi.go.kr/city_bus/time_table.do?route_id=17510&brtId=175&remark=(구 83번)구미역_해평
+180	(구 전기버스7번)구미역_구평예다음아파트	구미역	구평예다음아파트2차	http://bis.gumi.go.kr/city_bus/time_table.do?route_id=18010&brtId=180&remark=(구 전기버스7번)구미역_구평예다음아파트
+181	(구 41번)구미역_형곡중_황상	구미역	황상종점	http://bis.gumi.go.kr/city_bus/time_table.do?route_id=18110&brtId=181&remark=(구 41번)구미역_형곡중_황상
+182	(구 42번)구미역_전자공고(임수동)_황상	구미역	황상종점	http://bis.gumi.go.kr/city_bus/time_table.do?route_id=18210&brtId=182&remark=(구 42번)구미역_전자공고(임수동)_황상
+182-2	(구 43-1번)구미역_신평시장_황상	구미역	황상종점	http://bis.gumi.go.kr/city_bus/time_table.do?route_id=182-210&brtId=182-2&remark=(구 43-1번)구미역_신평시장_황상
+183	(구 142번)구미역_롯데마트_인동_황상동	구미역	황상종점	http://bis.gumi.go.kr/city_bus/time_table.do?route_id=18310&brtId=183&remark=(구 142번)구미역_롯데마트_인동_황상동
+184	구미역_공단본부_인동(신설)	구미역	인동정류장(인동중학교방면)	http://bis.gumi.go.kr/city_bus/time_table.do?route_id=18410&brtId=184&remark=구미역_공단본부_인동(신설)
+185	구미역_신평_비산_인동_황상(신설)	구미역	황상종점	http://bis.gumi.go.kr/city_bus/time_table.do?route_id=18510&brtId=185&remark=구미역_신평_비산_인동_황상(신설)
+186	(구 141번)구미역_형곡중_황상	구미역	황상종점	http://bis.gumi.go.kr/city_bus/time_table.do?route_id=18610&brtId=186&remark=(구 141번)구미역_형곡중_황상
+187	구미역_인동정류장_구평휴먼시아_구미역	구미역	구미역(중앙시장)	http://bis.gumi.go.kr/city_bus/time_table.do?route_id=18730&brtId=187&remark=구미역_인동정류장_구평휴먼시아_구미역
+188	(구 143-1번)구미역_순천향병원_구평휴먼시아_구미역	구미역	구미역(중앙시장)	http://bis.gumi.go.kr/city_bus/time_table.do?route_id=18830&brtId=188&remark=(구 143-1번)구미역_순천향병원_구평휴먼시아_구미역
+190	(구14-1번)구미역_신평시장_금오공대_옥계e편한세상	구미역	옥계이편한세상APT앞	http://bis.gumi.go.kr/city_bus/time_table.do?route_id=19010&brtId=190&remark=(구14-1번)구미역_신평시장_금오공대_옥계e편한세상
+190-3	(구 14-1번)구미역_금오공대	구미역	금오공대종점	http://bis.gumi.go.kr/city_bus/time_table.do?route_id=190-310&brtId=190-3&remark=(구 14-1번)구미역_금오공대
+191	(구 13-1번)구미역_형곡_신평_비산_금오공대_옥계e편한세상	구미역	옥계이편한세상APT앞	http://bis.gumi.go.kr/city_bus/time_table.do?route_id=19110&brtId=191&remark=(구 13-1번)구미역_형곡_신평_비산_금오공대_옥계e편한세상
+192	(구 180번)구미역_금오공대_해평	구미역	해평버스정류장	http://bis.gumi.go.kr/city_bus/time_table.do?route_id=19210&brtId=192&remark=(구 180번)구미역_금오공대_해평
+193	(구 170번)구미역_신평_금오공대_4공단입구_장천	구미역	장천버스터미널 종점	http://bis.gumi.go.kr/city_bus/time_table.do?route_id=19310&brtId=193&remark=(구 170번)구미역_신평_금오공대_4공단입구_장천
+193-2	구미역_신평시장_금오공대_4공단입구_산동농협경제사업소_경운대학교_장천터미널	구미역	장천버스터미널 종점	http://bis.gumi.go.kr/city_bus/time_table.do?route_id=193-210&brtId=193-2&remark=구미역_신평시장_금오공대_4공단입구_산동농협경제사업소_경운대학교_장천터미널
+194	(구 44-1번)구미역_신평시장_양호동	구미역	양호동종점	http://bis.gumi.go.kr/city_bus/time_table.do?route_id=19410&brtId=194&remark=(구 44-1번)구미역_신평시장_양호동
+195	구미역_공단본부_금오공대_4공단입구_아사히글라스	구미역	아사히글라스앞	http://bis.gumi.go.kr/city_bus/time_table.do?route_id=19510&brtId=195&remark=구미역_공단본부_금오공대_4공단입구_아사히글라스
+196	구미역_금오공대_경운대	구미역	경운대학교	http://bis.gumi.go.kr/city_bus/time_table.do?route_id=19610&brtId=196&remark=구미역_금오공대_경운대
+24	(구 1-3번)구미역_도량1동_문성2지구	구미역(중앙시장)	문성2지구	http://bis.gumi.go.kr/city_bus/time_table.do?route_id=2410&brtId=24&remark=(구 1-3번)구미역_도량1동_문성2지구
+26	(구 25번)구미역_다식_괴평	구미역(선산노선정류장)	괴평	http://bis.gumi.go.kr/city_bus/time_table.do?route_id=2610&brtId=26&remark=(구 25번)구미역_다식_괴평
+26-2	구미역_송림네거리_대평리_구미역	구미역(선산노선정류장)	구미역(중앙시장)	http://bis.gumi.go.kr/city_bus/time_table.do?route_id=26-231&brtId=26-2&remark=구미역_송림네거리_대평리_구미역
+26-2	구미역_대평리_송림사거리_구미역	구미역(선산노선정류장)	구미역(중앙시장)	http://bis.gumi.go.kr/city_bus/time_table.do?route_id=26-230&brtId=26-2&remark=구미역_대평리_송림사거리_구미역
+260	(구 125번)구미역_다식_괴평	구미역(선산노선정류장)	괴평	http://bis.gumi.go.kr/city_bus/time_table.do?route_id=26010&brtId=260&remark=(구 125번)구미역_다식_괴평
+28	(구 27번)구미역_고아_대망_원호_구미역	구미역(선산노선정류장)	구미역(중앙시장)	http://bis.gumi.go.kr/city_bus/time_table.do?route_id=2830&brtId=28&remark=(구 27번)구미역_고아_대망_원호_구미역
+28-1	(구 27번)구미역_원호동_대망_고아_지산_구미역_원호동	구미역(선산노선정류장)	원호대우아파트앞	http://bis.gumi.go.kr/city_bus/time_table.do?route_id=28-110&brtId=28-1&remark=(구 27번)구미역_원호동_대망_고아_지산_구미역_원호동
+29	구미역_시청후문_문성2지구	구미역(선산노선정류장)	문성2지구	http://bis.gumi.go.kr/city_bus/time_table.do?route_id=2910&brtId=29&remark=구미역_시청후문_문성2지구
+340	(구 13번)구미역_순천향병원_구미역	구미역	구미역(중앙시장)	http://bis.gumi.go.kr/city_bus/time_table.do?route_id=34030&brtId=340&remark=(구 13번)구미역_순천향병원_구미역
+340-4	(구 13번)구미역_순천향병원_구미역_원호동_청마루	구미역	봉곡청마루종점	http://bis.gumi.go.kr/city_bus/time_table.do?route_id=340-435&brtId=340-4&remark=(구 13번)구미역_순천향병원_구미역_원호동_청마루
+340-5	(구 13번)구미역_순천향병원_구미역_원호동_문성청솔아파트	구미역	청솔아파트건너	http://bis.gumi.go.kr/city_bus/time_table.do?route_id=340-512&brtId=340-5&remark=(구 13번)구미역_순천향병원_구미역_원호동_문성청솔아파트
+340-9	(구 13번)구미역_순천향병원_구미역_원호동	구미역	원호대우아파트앞	http://bis.gumi.go.kr/city_bus/time_table.do?route_id=340-932&brtId=340-9&remark=(구 13번)구미역_순천향병원_구미역_원호동
+360	(구 15번)구미역_형곡중_숭오리	구미역	숭오리 종점	http://bis.gumi.go.kr/city_bus/time_table.do?route_id=36010&brtId=360&remark=(구 15번)구미역_형곡중_숭오리
+361	(구 15-1번)구미역_사곡고-상모고_숭오리	구미역	숭오리 종점	http://bis.gumi.go.kr/city_bus/time_table.do?route_id=36110&brtId=361&remark=(구 15-1번)구미역_사곡고-상모고_숭오리
+380	(구 40번)구미역_형남중_사곡동_순천향병원_황상	구미역	황상종점	http://bis.gumi.go.kr/city_bus/time_table.do?route_id=38010&brtId=380&remark=(구 40번)구미역_형남중_사곡동_순천향병원_황상
+380-1	(구 40번)구미역_형남중_순천향병원_황상_옥계대백	구미역	옥계대백타운종점	http://bis.gumi.go.kr/city_bus/time_table.do?route_id=380-110&brtId=380-1&remark=(구 40번)구미역_형남중_순천향병원_황상_옥계대백
+380-2	(구 40-1번)구미역_형남중_사곡고_순천향병원_황상	구미역	황상종점	http://bis.gumi.go.kr/city_bus/time_table.do?route_id=380-210&brtId=380-2&remark=(구 40-1번)구미역_형남중_사곡고_순천향병원_황상
+410	(구 16번)구미역_임은동_구미역	구미역	구미역(중앙시장)	http://bis.gumi.go.kr/city_bus/time_table.do?route_id=41030&brtId=410&remark=(구 16번)구미역_임은동_구미역
+410-1	(구 16번)구미역_임은동_구미역_원호동	구미역	원호대우아파트앞	http://bis.gumi.go.kr/city_bus/time_table.do?route_id=410-135&brtId=410-1&remark=(구 16번)구미역_임은동_구미역_원호동
+410-1	구미역_임은동_구미역_원호동_문성2지구	구미역	문성2지구	http://bis.gumi.go.kr/city_bus/time_table.do?route_id=410-131&brtId=410-1&remark=구미역_임은동_구미역_원호동_문성2지구
+410-5	(구 16번)구미역_임은동_구미역_5주공_원호동	구미역	원호대우아파트앞	http://bis.gumi.go.kr/city_bus/time_table.do?route_id=410-530&brtId=410-5&remark=(구 16번)구미역_임은동_구미역_5주공_원호동
+410-7	(구 16번)구미역_임은동_구미역_원호동_문성청솔아파트	구미역	청솔아파트건너	http://bis.gumi.go.kr/city_bus/time_table.do?route_id=410-711&brtId=410-7&remark=(구 16번)구미역_임은동_구미역_원호동_문성청솔아파트
+411	(구 17번)구미역_임은동_구미역	구미역	구미역(중앙시장)	http://bis.gumi.go.kr/city_bus/time_table.do?route_id=41130&brtId=411&remark=(구 17번)구미역_임은동_구미역
+411-2	(구 17번)구미역_오태1동_오태2동_구미역(임은동미경유)	구미역	구미역(중앙시장)	http://bis.gumi.go.kr/city_bus/time_table.do?route_id=411-234&brtId=411-2&remark=(구 17번)구미역_오태1동_오태2동_구미역(임은동미경유)
+411-4	(구 17번)구미역_임은동_구미역_원호동_청마루	구미역	봉곡청마루종점	http://bis.gumi.go.kr/city_bus/time_table.do?route_id=411-437&brtId=411-4&remark=(구 17번)구미역_임은동_구미역_원호동_청마루
+411-6	(구 17번)구미역_임은동_구미역_원호동	구미역	원호대우아파트앞	http://bis.gumi.go.kr/city_bus/time_table.do?route_id=411-635&brtId=411-6&remark=(구 17번)구미역_임은동_구미역_원호동
+411-7	(구 17번)구미역_임은동_상모고-사곡고-형곡경유_구미역_원호동	구미역	원호대우아파트앞	http://bis.gumi.go.kr/city_bus/time_table.do?route_id=411-731&brtId=411-7&remark=(구 17번)구미역_임은동_상모고-사곡고-형곡경유_구미역_원호동
+411-9	(구 17번)구미역_임은동_구미역_5주공_원호동_문성청솔아파트	구미역	청솔아파트건너	http://bis.gumi.go.kr/city_bus/time_table.do?route_id=411-930&brtId=411-9&remark=(구 17번)구미역_임은동_구미역_5주공_원호동_문성청솔아파트
+460	(구 18번)구미역_비산보성_임은동_구미역	구미역	구미역(중앙시장)	http://bis.gumi.go.kr/city_bus/time_table.do?route_id=46030&brtId=460&remark=(구 18번)구미역_비산보성_임은동_구미역
+461	(구 19번)구미역_임은동_비산보성_구미역	구미역	구미역(중앙시장)	http://bis.gumi.go.kr/city_bus/time_table.do?route_id=46130&brtId=461&remark=(구 19번)구미역_임은동_비산보성_구미역
+777	버스 차고지행 노선입니다.	구미역(중앙시장)	차고지행	http://bis.gumi.go.kr/city_bus/time_table.do?route_id=77710&brtId=777&remark=버스 차고지행 노선입니다.
+881	(구 60번)구미역_천평	구미역	천평종점	http://bis.gumi.go.kr/city_bus/time_table.do?route_id=88110&brtId=881&remark=(구 60번)구미역_천평
+882	(구 47번)구미역_성곡	구미역	성곡종점	http://bis.gumi.go.kr/city_bus/time_table.do?route_id=88210&brtId=882&remark=(구 47번)구미역_성곡
+883	(구72번)구미역_송학리_장천터미널	구미역	장천버스터미널 종점	http://bis.gumi.go.kr/city_bus/time_table.do?route_id=88310&brtId=883&remark=(구72번)구미역_송학리_장천터미널
+883-1	(구72번)구미역_송학리_장천터미널_경운대	구미역	경운대학교	http://bis.gumi.go.kr/city_bus/time_table.do?route_id=883-111&brtId=883-1&remark=(구72번)구미역_송학리_장천터미널_경운대
+884	(구71번)구미역_신장리_장천터미널	구미역	장천버스터미널 종점	http://bis.gumi.go.kr/city_bus/time_table.do?route_id=88410&brtId=884&remark=(구71번)구미역_신장리_장천터미널
+884-1	(구71번)구미역_신장리_장천터미널_경운대	구미역	경운대학교	http://bis.gumi.go.kr/city_bus/time_table.do?route_id=884-111&brtId=884-1&remark=(구71번)구미역_신장리_장천터미널_경운대
+884-2	(구71번)구미역_인동_신장리_장천터미널_천평_장천	구미역	장천버스터미널 종점	http://bis.gumi.go.kr/city_bus/time_table.do?route_id=884-210&brtId=884-2&remark=(구71번)구미역_인동_신장리_장천터미널_천평_장천
+885	(구61번)구미역_동명	구미역	동명면우체국건너	http://bis.gumi.go.kr/city_bus/time_table.do?route_id=88510&brtId=885&remark=(구61번)구미역_동명
+885-1	(구61번)구미역_장천_동명	구미역	동명면우체국건너	http://bis.gumi.go.kr/city_bus/time_table.do?route_id=885-111&brtId=885-1&remark=(구61번)구미역_장천_동명
+890	(구 181번)구미역_인동_해평	구미역	해평버스정류장	http://bis.gumi.go.kr/city_bus/time_table.do?route_id=89010&brtId=890&remark=(구 181번)구미역_인동_해평
+891	(구 188번)구미역_옥계대백아파트	구미역	옥계대백타운종점	http://bis.gumi.go.kr/city_bus/time_table.do?route_id=89110&brtId=891&remark=(구 188번)구미역_옥계대백아파트
+891-1	(구 188번)구미역_산동_경운대	구미역	경운대학교	http://bis.gumi.go.kr/city_bus/time_table.do?route_id=891-111&brtId=891-1&remark=(구 188번)구미역_산동_경운대
+90	구미역_인동_옥계대백_산동파출소_해평	구미역	해평버스정류장	http://bis.gumi.go.kr/city_bus/time_table.do?route_id=9011&brtId=90&remark=구미역_인동_옥계대백_산동파출소_해평
+900	구미역_강변코오롱하늘채_옥계휴먼시아_구미코_아사히글라스	구미역	아사히글라스앞	http://bis.gumi.go.kr/city_bus/time_table.do?route_id=90010&brtId=900&remark=구미역_강변코오롱하늘채_옥계휴먼시아_구미코_아사히글라스
+910	구미역_공단본부_옥계부영아파트_골드클래스1차_중흥S클래스	구미역	인덕중흥S클래스건너	http://bis.gumi.go.kr/city_bus/time_table.do?route_id=91010&brtId=910&remark=구미역_공단본부_옥계부영아파트_골드클래스1차_중흥S클래스
+95-1	(구81번)구미역_옥계휴먼시아_신당_산동파출소_장천	구미역	장천버스터미널 종점	http://bis.gumi.go.kr/city_bus/time_table.do?route_id=95-111&brtId=95-1&remark=(구81번)구미역_옥계휴먼시아_신당_산동파출소_장천
